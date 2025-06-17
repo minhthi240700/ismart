@@ -3,9 +3,9 @@
         <div class="card-header font-weight-bold d-flex justify-content-between align-items-center">
             <h5 class="m-0 ">Danh sách bài viết</h5>
             <div class="form-search form-inline">
-                <form action="#">
-                    <input type="" class="form-control form-search" placeholder="Tìm kiếm">
-                    <input type="submit" name="btn-search" value="Tìm kiếm" class="btn btn-primary">
+                <form action="#" class="d-flex">
+                    <input type="text" class="form-control form-search" name="search-blog" placeholder="Tìm kiếm">
+                    <input type="submit" name="btn-search" value="Tìm kiếm" class="btn btn-primary ml-3">
                 </form>
             </div>
         </div>

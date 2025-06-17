@@ -1,4 +1,5 @@
-<?php get_header_admin(); ?>
+<?php get_header_admin(['loadTinyMCE' => $loadTinyMCE ?? false]); ?>
+
 <?php get_partials('Admin/partials/navbar') ?>
 <div id="page-body" class="d-flex">
     <?php get_partials('Admin/partials/sidebar') ?>

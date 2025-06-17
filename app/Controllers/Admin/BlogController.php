@@ -16,6 +16,6 @@ class BlogController extends Controller
     }
     public function addBlog()
     {
-        $this->loadView('Admin/blog/add-blog', 'admin');
+        $this->loadView('Admin/blog/add-blog', 'admin', ['loadTinyMCE' => true]);
     }
 }

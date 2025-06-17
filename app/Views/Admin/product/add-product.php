@@ -19,7 +19,7 @@
                     <div class="col-6">
                         <div class="form-group">
                             <label for="intro">Mô tả sản phẩm</label>
-                            <textarea name="" class="form-control" id="intro" cols="30" rows="5"></textarea>
+                            <textarea name="" class="form-control tiny-editor" id="intro" cols="30" rows="5"></textarea>
                         </div>
                     </div>
                 </div>
@@ -27,7 +27,7 @@
 
                 <div class="form-group">
                     <label for="intro">Chi tiết sản phẩm</label>
-                    <textarea name="" class="form-control" id="intro" cols="30" rows="5"></textarea>
+                    <textarea name="" class="form-control tiny-editor" id="intro" cols="30" rows="5"></textarea>
                 </div>
 
 

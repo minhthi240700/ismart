@@ -1,10 +1,7 @@
 <div id="sidebar" class="bg-white">
     <ul id="sidebar-menu">
-        <li class="nav-link">
-            <a href="/">
-                <div class="nav-link-icon d-inline-flex">
-                    <i class="far fa-folder"></i>
-                </div>
+        <li class="nav-link <?= menu_active('/') ?>">
+            <a href="<?= admin_url('/') ?>">
                 Dashboard
             </a>
         </li>

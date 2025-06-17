@@ -11,7 +11,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="content">Nội dung bài viết</label>
-                                    <textarea name="" class="form-control" id="content" cols="30" rows="5"></textarea>
+                                    <textarea name="" class="form-control tiny-editor" id="content" cols="30" rows="5"></textarea>
                                 </div>
 
 

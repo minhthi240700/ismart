@@ -36,8 +36,8 @@ function get_footer() {
     get_partials('partials/footer');
 }
 
-function get_header_admin() {
-    get_partials('Admin/partials/header');
+function get_header_admin($args = []) {
+    get_partials('Admin/partials/header', $args);
 }
 
 function get_footer_admin() {

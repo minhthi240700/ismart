@@ -16,6 +16,6 @@ class ProductController extends Controller
     }
     public function addProduct()
     {
-        $this->loadView('Admin/product/add-product', 'admin');
+        $this->loadView('Admin/product/add-product', 'admin', ['loadTinyMCE' => true]);
     }
 }
